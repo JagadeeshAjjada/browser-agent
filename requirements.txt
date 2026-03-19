@@ -1,0 +1,16 @@
+# Core
+browser-use==0.12.2
+python-dotenv==1.2.1
+
+# Web UI
+fastapi==0.135.1
+uvicorn==0.42.0
+websockets==16.0
+
+# LLM
+# browser-use bundles native Gemini support (browser_use.llm.google.chat.ChatGoogle)
+# langchain-openai is only needed for Groq or Ollama providers
+langchain-openai==1.1.9
+
+# Playwright (browser automation — install browsers separately: playwright install chromium)
+playwright==1.58.0
